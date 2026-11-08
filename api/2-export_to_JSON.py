@@ -27,4 +27,3 @@ if __name__ == "__main__":
 
     with open("{}.json".format(employee_id), "w") as json_file:
         json.dump({str(employee_id): tasks}, json_file)
-
